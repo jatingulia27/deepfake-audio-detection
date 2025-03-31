@@ -1,4 +1,4 @@
-# deepfake-audio-detection
+# Deepfake-Audio-Detection
 
 # Project Title: Audio Classification using Deep Learning
 
@@ -14,10 +14,13 @@ To run this project, install the following dependencies:
 pip install tensorflow librosa numpy pandas scikit-learn matplotlib
 ```
 
-## Dataset
+## Dataset: UrbanSound8K
 
-- The dataset consists of multiple audio files categorized into different classes.
-- The dataset is preprocessed using **MFCC (Mel-Frequency Cepstral Coefficients)** for feature extraction.
+This project uses the UrbanSound8K dataset, which is around 5GB in size. You need to manually download it from:
+
+[UrbanSound8K Dataset](https://urbansounddataset.weebly.com/urbansound8k.html)
+
+After downloading, extract the dataset and place it in the project directory.
 
 ## Project Workflow
 
@@ -88,7 +91,5 @@ pip install tensorflow librosa numpy pandas scikit-learn matplotlib
 - Ensure all dependencies are installed before running.
 - Modify dataset paths accordingly before execution.
 
----
 
-This README provides an overview of the project structure and execution steps. Modify it based on additional details from your notebook
 
